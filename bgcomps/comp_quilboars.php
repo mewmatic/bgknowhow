@@ -66,6 +66,26 @@
         <br><br>
         Once you get a Charlga or <a class='hoverimage' href='/bgstrategy/minion/?id=348'>Bongo Bopper</a>, you can scale the entire build and replace one of these cards with Drakkari Enchanter. If you can only get individual Blood Gems, put them onto strong minions with Divine Shield or Cleave. <strong>Rylak Metalhead</strong> can be replaced by <a class='hoverimage' href='/bgstrategy/minion/?id=209'>Young Murk-Eye</a> (if Murlocs are available) but isn't as effective.
     </p>
+h3 id="deathrattle">Geomagus Paint Smudger <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Tusk', 'Roogug', 'Roogug', 'Smudger', 'Smudger', 'Lubber', 'Piper'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        It's a very good build to use when you are not doing well and want to stick behind at Tier-3/4. Each card is key piece, so you have to really balance on knowing at which time of the game is worth recycling. <strong>Jazzer</strong> are especially important, as the additional health to each Blood Gem proc will go a long way. <Necrolyte> is also important to ensure a divine shield card gains a bunch of stats.
+    </p>
+
+<h3 id="bristlebach">Geomagus Roogug Build<a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <?php
+    $board   = ['Piper', 'Roogug', 'Roogug', 'Spearhide', 'Bandit', 'Bopper', 'Charlga'];
+    $minions = getMinionsForBoard($board);
+    drawBoard($minions);
+    ?>
+    <p>
+        Any Quilboar that generates Blood Gems is good, so don't think this is the only way. You can also have a Rylak Metalhead be paired next to  <strong>Jazzer</strong> and a golden < strong>Geomancer</strong>. You can have <strong>Bookie</strong> or use <strong>Boar</strong> as well. Either way, you want to put as much Blood Gems onto Geomagus as much as you can. The only issue with this build is that the other targets for his effect are suboptimal. So try putting other cards such as a cleave or divine shield.
+        <br><br>
+    </p>
 </div>
 
 <br><br>
