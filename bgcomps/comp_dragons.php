@@ -13,7 +13,7 @@
     <!-- general info about Dragons -->
 </p>
 <div class="comp_wrapper">
-    <h3 id="kaly">Kalecgos Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="kaly">Kalecgos Rylak Battlecry Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
     $board   = ['Deathscale', 'Yu\'lon', 'Kaly', 'Drakkisath', 'Rylak', 'Drakkisath', 'Brann'];
     $minions = getMinionsForBoard($board);
@@ -27,9 +27,9 @@
         Other important cards: <a class='hoverimage' href='/bgstrategy/spell/?id=27'>Hired Headhunter</a> and <a class='hoverimage' href='/bgstrategy/spell/?id=32'>Dreamer's Embrace</a> will help your build.
     </p>
 
-    <h3 id="poet"">Poet Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
+    <h3 id="attack"">Attack Comp <a tabindex="0" onclick="CopyLink(this);" title="Copy the link to this section to your clipboard"><i class="bi bi-link-45deg"></i></a></h3>
     <?php
-    $board   = ['Hatespawn', 'Poet', 'Yu\'lon', 'Amber Guardian', 'Kaly', 'Brann', 'Nightbane'];
+    $board   = ['Nightbane', 'Amber Guardian', 'YPoet', 'Hooktail', 'Hooktail', 'Lubber', 'Smuggler'];
     $minions = getMinionsForBoard($board);
     drawBoard($minions);
     ?>
